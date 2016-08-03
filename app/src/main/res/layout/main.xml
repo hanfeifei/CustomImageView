@@ -17,4 +17,11 @@
         android:id="@+id/tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <com.yyc.custromimageview.MessageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/message5"
+        custom:image="@drawable/ic_top_dot_12" />
 </LinearLayout>

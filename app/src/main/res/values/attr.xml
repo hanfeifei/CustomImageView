@@ -6,5 +6,10 @@
     <declare-styleable name="CustomImageView">
         <attr name="image" />
     </declare-styleable>
+    <declare-styleable name="MessageImageView">
+        <attr name="image" />
+        <attr name="dWidth" format="dimension"/>
+        <attr name="dHeight" format="dimension"/>
+    </declare-styleable>
 
 </resources>
